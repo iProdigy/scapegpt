@@ -18,7 +18,7 @@ import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 
 @Slf4j
-@PluginDescriptor(name = "ScapeGPT", loadWhenOutdated = true)
+@PluginDescriptor(name = "ScapeGPT")
 public class ScapeGptPlugin extends Plugin {
     private static final String HOST = "44.211.86.102";  // Server IP address that handles requests
     private static final String ENDPOINT = "api/v1/query";
